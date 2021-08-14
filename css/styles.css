@@ -1,1 +1,69 @@
+#title {
 
+    background-color:#ff4c68;
+}
+
+
+.navbar{
+    
+    padding-left:0%;
+    margin: 0px 120px 60px 0px;
+}
+
+
+
+.navbar-brand {
+
+    font-family: "Ubuntu";
+    font-size: 2rem;
+    
+}
+
+.nav-item {
+
+    padding: 0 18px;
+    
+}
+
+.nav-item a {
+
+    font-size: clamp(1rem, -0.875rem + 8.333vw, 1.2rem);
+}
+
+.nav-link {
+
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    font-weight: 400;
+    
+}
+
+h1 {
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+    color:white;
+}
+
+.container-fluid {
+
+    padding: 3% 15%;
+}
+
+
+
+#IphoneImage {
+
+    transform: rotate(20deg);
+    width: 300px;
+    height: auto;
+    margin:40px;
+    
+    
+}
+
+.download-buttons {
+
+    margin: 5% 3% 0 0;
+}
