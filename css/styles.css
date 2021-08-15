@@ -210,18 +210,18 @@ h1 {
         content: "\f0c9"; /* fa-bars, fa-navicon */
       }
 
-      .navbar {
+      .navbar::before {
         padding-left: 0%;
         padding-right: 0;
         margin: 0px 0px 60px 0px;
         text-align: right;
       }
 
-      #IphoneImage {
+      #IphoneImage::before {
         position:static;
         transform: rotate(0deg);
         }
-        .row {
+        .row::before{
             text-align: center;
         }
 }
