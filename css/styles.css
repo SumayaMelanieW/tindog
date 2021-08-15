@@ -36,17 +36,11 @@
 
 @media (max-width: 1000px) {
 
+
     .nav-link {
 
         font-size: 2rem;
-
-        
     }
-}
-
-@media (max-width: 1000px) {
-
-
 
     .navbar-toggler-icon {
         background-image: none !important;
