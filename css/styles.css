@@ -40,22 +40,19 @@
 
         font-size: 2rem;
 
-        
-    }
-}
-
-@media (max-width: 1000px) {
-
-
-
     .navbar-toggler-icon {
         background-image: none !important;
       }
       .navbar-toggler-icon::before {
         font-family: FontAwesome;
         content: "\f0c9"; /* fa-bars, fa-navicon */
-      }
 
+      .navbar {
+        padding-left: 0%;
+        padding-right: 0;
+        margin: 0px 0px 60px 0px;
+        text-align: right;
+      }
 
 }
 
