@@ -1,6 +1,68 @@
-#title {
+
+/* html elements */
+
+body {
+
+    font-family:"Montserrat";
+    text-align: center;
+}
+
+h1, h2, h3 {
+
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+h1 {
+    
+    font-size: 3rem;
+    color:white;
+}
+
+h3 {
+
+    font-size: 1.5rem;
+}
+
+
+h2 {
+    
+    font-size: 3rem;
+}
+
+
+p {
+
+    color:#8f8f8f;
+}
+
+
+/* broad classes */
+
+.container-fluid {
+
+    padding: 7% 15%;
+}
+
+.colored-section {
 
     background-color:#ff4c68;
+    color:white;
+}
+
+.white-section {
+
+    background-color:#fff;
+}
+
+
+/* title section */
+
+#title .container-fluid {
+
+    padding: 3% 15%;
+    text-align: left;
+
 }
 
 
@@ -25,7 +87,6 @@
     
 }
 
-
 .nav-link {
 
     font-size: 1.2rem;
@@ -33,21 +94,6 @@
     font-weight: 400;
     
 }
-
-h1 {
-    font-family: "Montserrat";
-    font-weight: 900;
-    font-size: 3rem;
-    line-height: 1.5;
-    color:white;
-}
-
-.container-fluid {
-
-    padding: 3% 15% 7%;
-}
-
-
 
 #IphoneImage {
 
@@ -57,8 +103,6 @@ h1 {
     right: 30%;
     position:absolute;
 
-    
-    
 }
 
 
@@ -68,12 +112,13 @@ h1 {
     margin: 5% 3% 3% 0;
 }
 
-#features {
 
-    text-align: center;
-    background-color: white;
+/* feature section */
+
+#features {
+  
     position: relative;
-    padding: 7% 15%;
+
 }
 
 
@@ -88,47 +133,8 @@ h1 {
     color: #ff4c68;
 }
 
- h3 {
 
-    font-weight:900;
-    font-family: "Montserrat";
-    font-size: 1.5rem;
-    
-}
-
-#features p {
-
-    color: #8f8f8f
-}
-
-#testimonials {
-
-    
-    text-align: center;
-    background-color:#ff4c68;
-    color:#fff;
-}
-
-.testimonial-item {
-
-    padding: 7% 15%;
-}
-
- h2 {
-
-    font-family: "Montserrat";
-    font-size: 3rem;
-    font-weight: 900;
-    line-height: 1.5;
-    
-
-
-}
-
-.carousel-item h2{
-
-    padding: 7% 15%;
-}
+/* testimonial section */
 
 .testimonial-image {
 
@@ -141,10 +147,8 @@ h1 {
 
 #press {
 
-    background-color:#ff4c68;
-    text-align: center;
-    padding-bottom: 3%;
     
+    padding-bottom: 3%;
 
 }
 
@@ -154,10 +158,12 @@ h1 {
     margin: 20px 20px 50px;
 }
 
+
+/* pricing section */
+
 #pricing {
 
     padding: 100px;
-    text-align: center;
 
 }
 
@@ -166,19 +172,7 @@ h1 {
     padding: 3% 2%;
 }
 
-#cta {
 
-    background-color: #ff4c68;
-    text-align: center;
-    padding: 7% 15% 7% 15%;
-}
-
-#footer {
-
-    background-color:#fff;
-    padding: 7% 7%;
-    text-align: center;
-}
 
 #footer i {
 
@@ -186,12 +180,7 @@ h1 {
 
 }
 
-#footer p {
 
-    color: #8f8f8f;
-    
-
-}
 
 
 @media (max-width: 1000px) {
@@ -221,7 +210,15 @@ h1 {
         position:static;
         transform: rotate(0deg);
         }
-        .row{
+        .row {
             text-align: center;
         }
 }
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    border-radius: 70%;
+    border: 1px solid lightgray;
+  }
