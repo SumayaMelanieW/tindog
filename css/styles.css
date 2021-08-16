@@ -136,6 +136,13 @@ p {
 
 /* testimonial section */
 
+#testimonials {
+
+    position:relative;
+    z-index: 1;
+    
+}
+
 .testimonial-image {
 
     width: 10%;
