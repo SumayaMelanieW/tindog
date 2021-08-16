@@ -9,7 +9,6 @@
   <meta property="og:title" content="TINDOG Matchmaking for dogs" />
   <meta property="og:description" content="You're tired of your dog howling, because he is lonely? You don't want him to sniff random dogs in the park?With this App you will have puppies in no time" /> 
 
-
   <title>TinDog</title>
     
   
@@ -33,7 +32,7 @@
 
 <body>
 
-  <section id="title">
+  <section class="colored-section" id="title">
     <div class="container-fluid">
 
     <nav class="navbar navbar-expand-lg navbar-dark">
@@ -47,13 +46,13 @@
       <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link" href="">Contact</a>
+          <a class="nav-link" href="#footer">Contact</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="">Pricing</a>
+          <a class="nav-link" href="#pricing">Pricing</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="">Download</a>
+          <a class="nav-link" href="#cta">Download</a>
         </li>
 
       </ul>
@@ -85,7 +84,9 @@
 
   <!-- Features -->
 
-  <section id="features">
+  <section class="white-section" id="features">
+   
+    <div class="container-fluid">
     
     <div class="row features-row">
     
@@ -108,20 +109,22 @@
     </div>
 
   </div>
+</div>
+
   </section>
 
 
   <!-- Testimonials -->
 
-  <section id="testimonials">
+  <section class="colored-section" id="testimonials">
     <div id="carouselExampleControls" class="carousel slide" data-ride="false">
       <div class="carousel-inner">
-        <div class="carousel-item active">
+        <div class="carousel-item active container-fluid">
           <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
           <img class="testimonial-image" src="images/dog-img.jpg" alt="dog-profile">
           <em>Pebbles, New York</em>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item container-fluid">
           <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
           <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
           <em>Beverly, Illinois</em>
@@ -138,16 +141,11 @@
     </div>
     </div>
 
-
-
-
-
   </section>
-
 
   <!-- Press -->
 
-  <section id="press">
+  <section class="colored-section" id="press">
     <img src="images/techcrunch.png" alt="tc-logo">
     <img src="images/tnw.png" alt="tnw-logo">
     <img src="images/bizinsider.png" alt="biz-insider-logo">
@@ -158,7 +156,7 @@
 
   <!-- Pricing -->
 
-  <section id="pricing">
+  <section class="white-section" id="pricing">
 
     <h2>A Plan for Every Dog's Needs</h2>
     <p>Simple and affordable price plans for your and your dog.</p>
@@ -213,23 +211,13 @@
     </div>
 
   </div>
-    
-
-
-
-    
-
-
-
-    
-
 
   </section>
 
 
   <!-- Call to Action -->
 
-  <section id="cta">
+  <section id="cta" class="container-fluid colored-section">
 
     <h1>Find the True Love of Your Dog's Life Today.</h1>
     <button type="button" class="btn btn-dark btn-lg download-buttons"><i class="fab fa-apple"></i> Download</button>
@@ -241,7 +229,7 @@
 
   <!-- Footer -->
 
-  <footer id="footer">
+  <footer id="footer" class="container-fluid white-section">
 
     <span>
       <i class="fab fa-twitter"></i>
@@ -255,11 +243,15 @@
 
   </footer>
 
+  <button type="button" class="btn btn-light btn-floating btn-lg" id="btn-back-to-top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
 
   <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-
+  <script src="js/index.js"></script>
 </body>
 
 </html>
